@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Palmreaderz AI-powered palm reading demo." />
+    <title>Palmreaderz — See what your palm reveals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="results-email.css" />
+  </head>
+  <body>
+    <div class="glow glow-one"></div><div class="glow glow-two"></div>
+    <header class="site-header">
+      <a class="brand" href="#top"><span class="brand-mark">✦</span>Palmreaderz</a>
+      <nav aria-label="Main navigation"><a href="#how-it-works">How it works</a><a href="products.html">Products & features</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a></nav>
+      <a class="nav-cta" href="#scanner">Try it free</a>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">✦ AI-POWERED PALM INSIGHT</p>
+          <h1>Your palm holds a<br /><em>story worth reading.</em></h1>
+          <p class="hero-text">Upload a photo of your palm and let Palmreaderz uncover the patterns in your life, heart, marriage, fate, and money lines—in seconds.</p>
+          <div class="hero-actions"><a class="button primary" href="#scanner">Read my palm <span>→</span></a><a class="button text-button" href="#how-it-works">Discover how it works</a></div>
+          <div class="trust"><span class="avatars"><i></i><i></i><i></i></span><span>Trusted by curious minds worldwide</span></div>
+        </div>
+        <div class="palm-visual" aria-hidden="true">
+          <div class="orb"><span class="orbit orbit-a"></span><span class="orbit orbit-b"></span><span class="star star-a">✦</span><span class="star star-b">✧</span>
+            <svg viewBox="0 0 360 440" role="img"><path class="hand" d="M115 386c-19-27-30-61-27-98l5-64c1-11 14-12 16 0l4 43 3-139c0-14 19-14 20 1l3 116 3-151c0-14 21-14 21 1l1 146 5-150c1-14 21-13 21 1l-2 151 7-127c1-14 21-13 21 1l-4 145 13-75c3-13 22-9 19 4l-14 89c-8 49-5 95 12 131 10 21 13 45 3 62-17 28-55 38-92 27-28-8-47-21-59-40Z"/><path class="line life" d="M123 257c33-16 77-13 109 15 23 20 32 50 24 77"/><path class="line heart" d="M124 217c41 15 77 6 119-19"/><path class="line fate" d="M173 144c-7 69-8 130 7 199"/><path class="line money" d="M194 176c27 22 37 42 40 69"/></svg>
+          </div>
+        </div>
+      </section>
+      <section class="scanner-section" id="scanner">
+        <div class="scanner-intro"><p class="eyebrow">YOUR PERSONAL READING</p><h2>Let’s read your <em>palm.</em></h2><p>For the best result, use a clear, well-lit photo of your open palm facing the camera.</p></div>
+        <div class="scanner-card">
+          <label class="upload-area" for="palm-photo" id="upload-area"><input id="palm-photo" type="file" accept="image/*" /><span class="upload-icon">↑</span><strong>Upload a palm photo</strong><small>JPG, PNG or WEBP · max 10 MB</small><img id="preview" alt="Palm photo preview" /></label>
+          <div class="reading-options"><p>What would you like to explore?</p><div class="chips"><button class="chip active">Complete reading</button><button class="chip">Love & heart</button><button class="chip">Career & fate</button><button class="chip">Money path</button></div><button class="button primary scan-button" id="scan-button" type="button">Analyze my palm <span>→</span></button><p class="privacy">🔒 Your photo stays private and secure.</p></div>
+        </div>
+        <div class="result" id="result" hidden><span>✦</span><div><strong>Your demo reading is ready</strong><p>Your heart line suggests warmth and clear emotional intuition. Your life line reflects resilience and an appetite for meaningful change.</p><form class="results-email" id="results-email"><label for="result-email">Send this reading to your email</label><div><input id="result-email" required type="email" placeholder="you@example.com" /><button type="submit">Email my result →</button></div><small id="email-status">We’ll only use your email to send this reading.</small></form></div></div>
+      </section>
+      <section class="features" id="readings"><p class="eyebrow">WHAT YOUR PALM CAN REVEAL</p><h2>Answers to the questions<br />that <em>matter most.</em></h2><div class="feature-grid"><article><span>♡</span><h3>Heart & love</h3><p>Explore emotional patterns, connection, and the shape of your heart line.</p></article><article><span>✣</span><h3>Life & purpose</h3><p>Discover the paths that energize you and the choices that define you.</p></article><article><span>⌁</span><h3>Fate & career</h3><p>Find insight into your ambition, calling, and the road ahead.</p></article><article><span>◌</span><h3>Money & success</h3><p>Understand your relationship with opportunity, growth, and abundance.</p></article></div></section>
+      <section class="how" id="how-it-works"><div><p class="eyebrow">SIMPLE, THOUGHTFUL, INSTANT</p><h2>Ancient art,<br /><em>new perspective.</em></h2></div><ol><li><b>01</b><div><h3>Share your palm</h3><p>Take or upload a clear photo of your open hand.</p></div></li><li><b>02</b><div><h3>AI maps your lines</h3><p>Our algorithm identifies the unique features of your palm.</p></div></li><li><b>03</b><div><h3>Receive your reading</h3><p>Explore a personal, reflective interpretation in moments.</p></div></li></ol></section>
+      <section class="contact" id="contact"><div><p class="eyebrow">GET IN TOUCH</p><h2>Questions? We’re<br /><em>listening.</em></h2><p>Have feedback or want to know more about Palmreaderz? Send us a note.</p></div><form id="contact-form"><label>Name<input required type="text" placeholder="Your name" /></label><label>Email<input required type="email" placeholder="you@example.com" /></label><label>Message<textarea required placeholder="How can we help?"></textarea></label><button class="button primary" type="submit">Send message <span>→</span></button><p class="form-status" id="form-status"></p></form></section>
+    </main>
+    <footer><a class="brand" href="#top"><span class="brand-mark">✦</span>Palmreaderz</a><p><a style="color:#7050c8;text-decoration:none" href="terms.html">Terms & conditions</a> · <a style="color:#7050c8;text-decoration:none" href="privacy.html">Privacy policy</a></p><span>© 2026 Palmreaderz</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
