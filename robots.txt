@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.palmreaderz.it.com/sitemap.xml
+Sitemap: https://www.palmreaderz.blog/sitemap.xml
